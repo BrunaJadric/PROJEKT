@@ -51,5 +51,10 @@ namespace PROJEKT
             Form5 form5 = new Form5();
             form5.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
