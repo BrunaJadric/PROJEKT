@@ -35,6 +35,16 @@ namespace PROJEKT
             string slika = openFileDialog1.FileName;
             string zapis= textBox1IME.Text + "|" + textBox2VRSTA.Text + "|" + textBox3PASMINA.Text + "|" + musko.Checked + ";" + zensko.Checked + "|" + dob.Text + "|" + datumdolaska.Text + "|" + checkBox1CIJEPLJEN.Checked + "|" + checkBox2KASTRIRAN.Checked + "|" + textBox4NAPOMENA.Text + "|" + slika;
             Admin.UnosZivotinje(zapis);
+            textBox1IME.Clear();
+            textBox2VRSTA.Clear();
+            textBox3PASMINA.Clear();
+             musko.Checked = false;
+             zensko.Checked = false;
+             dob.Value = 0;
+             datumdolaska.Value = DateTime.Now;
+             checkBox1CIJEPLJEN.Checked = false;
+             checkBox2KASTRIRAN.Checked = false;
+             textBox4NAPOMENA.Clear();
         }
     }
 }
