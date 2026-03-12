@@ -58,7 +58,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(35, 32);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(349, 468);
             this.listBox1.TabIndex = 0;
@@ -66,7 +66,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(703, 32);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(303, 229);
             this.pictureBox1.TabIndex = 1;
@@ -165,7 +165,7 @@
             // textBox1ime
             // 
             this.textBox1ime.Location = new System.Drawing.Point(535, 32);
-            this.textBox1ime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1ime.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1ime.Name = "textBox1ime";
             this.textBox1ime.Size = new System.Drawing.Size(132, 22);
             this.textBox1ime.TabIndex = 11;
@@ -173,7 +173,7 @@
             // textBox2vrsta
             // 
             this.textBox2vrsta.Location = new System.Drawing.Point(535, 78);
-            this.textBox2vrsta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2vrsta.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2vrsta.Name = "textBox2vrsta";
             this.textBox2vrsta.Size = new System.Drawing.Size(132, 22);
             this.textBox2vrsta.TabIndex = 12;
@@ -181,7 +181,7 @@
             // textBox3pasmina
             // 
             this.textBox3pasmina.Location = new System.Drawing.Point(535, 128);
-            this.textBox3pasmina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3pasmina.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3pasmina.Name = "textBox3pasmina";
             this.textBox3pasmina.Size = new System.Drawing.Size(132, 22);
             this.textBox3pasmina.TabIndex = 13;
@@ -189,7 +189,7 @@
             // textBox4spol
             // 
             this.textBox4spol.Location = new System.Drawing.Point(535, 180);
-            this.textBox4spol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4spol.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4spol.Name = "textBox4spol";
             this.textBox4spol.Size = new System.Drawing.Size(132, 22);
             this.textBox4spol.TabIndex = 14;
@@ -197,7 +197,7 @@
             // textBox5dob
             // 
             this.textBox5dob.Location = new System.Drawing.Point(535, 236);
-            this.textBox5dob.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5dob.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5dob.Name = "textBox5dob";
             this.textBox5dob.Size = new System.Drawing.Size(132, 22);
             this.textBox5dob.TabIndex = 15;
@@ -205,7 +205,7 @@
             // textBox6datumdolaska
             // 
             this.textBox6datumdolaska.Location = new System.Drawing.Point(535, 293);
-            this.textBox6datumdolaska.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6datumdolaska.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6datumdolaska.Name = "textBox6datumdolaska";
             this.textBox6datumdolaska.Size = new System.Drawing.Size(132, 22);
             this.textBox6datumdolaska.TabIndex = 16;
@@ -213,7 +213,7 @@
             // textBox7cijepljen
             // 
             this.textBox7cijepljen.Location = new System.Drawing.Point(535, 354);
-            this.textBox7cijepljen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox7cijepljen.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7cijepljen.Name = "textBox7cijepljen";
             this.textBox7cijepljen.Size = new System.Drawing.Size(132, 22);
             this.textBox7cijepljen.TabIndex = 17;
@@ -221,7 +221,7 @@
             // textBox8kastriran
             // 
             this.textBox8kastriran.Location = new System.Drawing.Point(535, 412);
-            this.textBox8kastriran.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8kastriran.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8kastriran.Name = "textBox8kastriran";
             this.textBox8kastriran.Size = new System.Drawing.Size(132, 22);
             this.textBox8kastriran.TabIndex = 18;
@@ -229,7 +229,7 @@
             // textBox9napomena
             // 
             this.textBox9napomena.Location = new System.Drawing.Point(535, 476);
-            this.textBox9napomena.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox9napomena.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9napomena.Name = "textBox9napomena";
             this.textBox9napomena.Size = new System.Drawing.Size(132, 22);
             this.textBox9napomena.TabIndex = 19;
@@ -237,22 +237,24 @@
             // button1natrag
             // 
             this.button1natrag.Location = new System.Drawing.Point(731, 308);
-            this.button1natrag.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1natrag.Margin = new System.Windows.Forms.Padding(4);
             this.button1natrag.Name = "button1natrag";
             this.button1natrag.Size = new System.Drawing.Size(100, 28);
             this.button1natrag.TabIndex = 20;
             this.button1natrag.Text = "Natrag";
             this.button1natrag.UseVisualStyleBackColor = true;
+            this.button1natrag.Click += new System.EventHandler(this.button1natrag_Click);
             // 
             // button2naprijed
             // 
             this.button2naprijed.Location = new System.Drawing.Point(880, 308);
-            this.button2naprijed.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2naprijed.Margin = new System.Windows.Forms.Padding(4);
             this.button2naprijed.Name = "button2naprijed";
             this.button2naprijed.Size = new System.Drawing.Size(100, 28);
             this.button2naprijed.TabIndex = 21;
             this.button2naprijed.Text = "Naprijed";
             this.button2naprijed.UseVisualStyleBackColor = true;
+            this.button2naprijed.Click += new System.EventHandler(this.button2naprijed_Click);
             // 
             // Form3
             // 
@@ -281,7 +283,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
