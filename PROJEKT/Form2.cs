@@ -33,7 +33,34 @@ namespace PROJEKT
         {
             openFileDialog1.ShowDialog();
             string slika = openFileDialog1.FileName;
-            string zapis= textBox1IME.Text + "|" + textBox2VRSTA.Text + "|" + textBox3PASMINA.Text + "|" + musko.Checked + ";" + zensko.Checked + "|" + dob.Text + "|" + datumdolaska.Text + "|" + checkBox1CIJEPLJEN.Checked + "|" + checkBox2KASTRIRAN.Checked + "|" + textBox4NAPOMENA.Text + "|" + slika;
+            string spol = "";
+            string kastriran = "";
+            if(checkBox2KASTRIRAN.Checked==true)
+            {
+                kastriran="kastriran";
+            }
+            else
+            {
+                kastriran="nekastriran";
+            }
+            string cijepljen = "";
+            if(checkBox1CIJEPLJEN.Checked==true)
+            {
+                cijepljen = "cijepljen";
+            }
+            else
+            {
+                cijepljen = "necijepljen";
+            }
+             if(musko.Checked==true)
+            {
+                spol = "musko";
+            }
+             else
+            {
+                spol = "zensko";
+            }
+            string zapis = textBox1IME.Text + "|" + textBox2VRSTA.Text + "|" + textBox3PASMINA.Text + "|" + spol + "|" + dob.Text + "|" + datumdolaska.Text + "|" + cijepljen + "|" + kastriran + "|" + textBox4NAPOMENA.Text + "|" + slika;
             Admin.UnosZivotinje(zapis);
             textBox1IME.Clear();
             textBox2VRSTA.Clear();
