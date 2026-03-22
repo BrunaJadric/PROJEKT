@@ -31,7 +31,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.pretrazi = new System.Windows.Forms.Button();
             this.osvježi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -64,16 +64,16 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Odaberi vrstu ili status:";
             // 
-            // button1
+            // pretrazi
             // 
-            this.button1.Location = new System.Drawing.Point(561, 122);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Pretraži";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pretrazi.Location = new System.Drawing.Point(561, 122);
+            this.pretrazi.Margin = new System.Windows.Forms.Padding(4);
+            this.pretrazi.Name = "pretrazi";
+            this.pretrazi.Size = new System.Drawing.Size(100, 28);
+            this.pretrazi.TabIndex = 3;
+            this.pretrazi.Text = "Pretraži";
+            this.pretrazi.UseVisualStyleBackColor = true;
+            this.pretrazi.Click += new System.EventHandler(this.button1_Click);
             // 
             // osvježi
             // 
@@ -91,7 +91,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.osvježi);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pretrazi);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.listBox1);
@@ -109,7 +109,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button pretrazi;
         private System.Windows.Forms.Button osvježi;
     }
 }
