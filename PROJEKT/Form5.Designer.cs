@@ -35,13 +35,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Udomi = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.Nasezivotinje = new System.Windows.Forms.ListBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1datumu
             // 
             this.textBox1datumu.Location = new System.Drawing.Point(211, 37);
-            this.textBox1datumu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1datumu.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1datumu.Name = "textBox1datumu";
             this.textBox1datumu.Size = new System.Drawing.Size(132, 22);
             this.textBox1datumu.TabIndex = 0;
@@ -49,7 +50,7 @@
             // textBox2udomitelj
             // 
             this.textBox2udomitelj.Location = new System.Drawing.Point(211, 79);
-            this.textBox2udomitelj.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2udomitelj.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2udomitelj.Name = "textBox2udomitelj";
             this.textBox2udomitelj.Size = new System.Drawing.Size(132, 22);
             this.textBox2udomitelj.TabIndex = 1;
@@ -58,7 +59,7 @@
             // textBox3kontakt
             // 
             this.textBox3kontakt.Location = new System.Drawing.Point(211, 134);
-            this.textBox3kontakt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3kontakt.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3kontakt.Name = "textBox3kontakt";
             this.textBox3kontakt.Size = new System.Drawing.Size(132, 22);
             this.textBox3kontakt.TabIndex = 2;
@@ -96,29 +97,41 @@
             // Udomi
             // 
             this.Udomi.Location = new System.Drawing.Point(132, 206);
-            this.Udomi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Udomi.Margin = new System.Windows.Forms.Padding(4);
             this.Udomi.Name = "Udomi";
             this.Udomi.Size = new System.Drawing.Size(100, 28);
             this.Udomi.TabIndex = 6;
             this.Udomi.Text = "Udomi";
             this.Udomi.UseVisualStyleBackColor = true;
+            this.Udomi.Click += new System.EventHandler(this.Udomi_Click);
             // 
-            // listBox1
+            // Nasezivotinje
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(412, 41);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(284, 276);
-            this.listBox1.TabIndex = 7;
+            this.Nasezivotinje.FormattingEnabled = true;
+            this.Nasezivotinje.ItemHeight = 16;
+            this.Nasezivotinje.Location = new System.Drawing.Point(407, 79);
+            this.Nasezivotinje.Margin = new System.Windows.Forms.Padding(4);
+            this.Nasezivotinje.Name = "Nasezivotinje";
+            this.Nasezivotinje.Size = new System.Drawing.Size(284, 276);
+            this.Nasezivotinje.TabIndex = 7;
+            this.Nasezivotinje.DoubleClick += new System.EventHandler(this.Nasezivotinje_DoubleClick);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(442, 43);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(240, 16);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Dupli klik na životinju koju želite udomiti:";
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Nasezivotinje);
             this.Controls.Add(this.Udomi);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -126,9 +139,10 @@
             this.Controls.Add(this.textBox3kontakt);
             this.Controls.Add(this.textBox2udomitelj);
             this.Controls.Add(this.textBox1datumu);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form5";
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,6 +157,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button Udomi;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox Nasezivotinje;
+        private System.Windows.Forms.Label label4;
     }
 }

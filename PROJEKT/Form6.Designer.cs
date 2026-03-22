@@ -39,6 +39,7 @@
             this.Statistika.Name = "Statistika";
             this.Statistika.Size = new System.Drawing.Size(306, 340);
             this.Statistika.TabIndex = 0;
+            this.Statistika.SelectedIndexChanged += new System.EventHandler(this.Statistika_SelectedIndexChanged);
             // 
             // Form6
             // 
@@ -48,6 +49,7 @@
             this.Controls.Add(this.Statistika);
             this.Name = "Form6";
             this.Text = "Form6";
+            this.Load += new System.EventHandler(this.Form6_Load);
             this.ResumeLayout(false);
 
         }

@@ -84,7 +84,7 @@
             // textBox1IME
             // 
             this.textBox1IME.Location = new System.Drawing.Point(127, 50);
-            this.textBox1IME.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1IME.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1IME.Name = "textBox1IME";
             this.textBox1IME.Size = new System.Drawing.Size(132, 22);
             this.textBox1IME.TabIndex = 3;
@@ -92,7 +92,7 @@
             // textBox2VRSTA
             // 
             this.textBox2VRSTA.Location = new System.Drawing.Point(127, 103);
-            this.textBox2VRSTA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2VRSTA.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2VRSTA.Name = "textBox2VRSTA";
             this.textBox2VRSTA.Size = new System.Drawing.Size(132, 22);
             this.textBox2VRSTA.TabIndex = 4;
@@ -100,7 +100,7 @@
             // textBox3PASMINA
             // 
             this.textBox3PASMINA.Location = new System.Drawing.Point(127, 159);
-            this.textBox3PASMINA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3PASMINA.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3PASMINA.Name = "textBox3PASMINA";
             this.textBox3PASMINA.Size = new System.Drawing.Size(132, 22);
             this.textBox3PASMINA.TabIndex = 5;
@@ -109,7 +109,7 @@
             // 
             this.musko.AutoSize = true;
             this.musko.Location = new System.Drawing.Point(51, 241);
-            this.musko.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.musko.Margin = new System.Windows.Forms.Padding(4);
             this.musko.Name = "musko";
             this.musko.Size = new System.Drawing.Size(68, 20);
             this.musko.TabIndex = 6;
@@ -121,7 +121,7 @@
             // 
             this.zensko.AutoSize = true;
             this.zensko.Location = new System.Drawing.Point(159, 241);
-            this.zensko.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.zensko.Margin = new System.Windows.Forms.Padding(4);
             this.zensko.Name = "zensko";
             this.zensko.Size = new System.Drawing.Size(73, 20);
             this.zensko.TabIndex = 7;
@@ -132,7 +132,7 @@
             // dob
             // 
             this.dob.Location = new System.Drawing.Point(127, 323);
-            this.dob.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dob.Margin = new System.Windows.Forms.Padding(4);
             this.dob.Name = "dob";
             this.dob.Size = new System.Drawing.Size(160, 22);
             this.dob.TabIndex = 8;
@@ -140,7 +140,7 @@
             // datumdolaska
             // 
             this.datumdolaska.Location = new System.Drawing.Point(51, 386);
-            this.datumdolaska.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.datumdolaska.Margin = new System.Windows.Forms.Padding(4);
             this.datumdolaska.Name = "datumdolaska";
             this.datumdolaska.Size = new System.Drawing.Size(265, 22);
             this.datumdolaska.TabIndex = 9;
@@ -149,7 +149,7 @@
             // 
             this.checkBox1CIJEPLJEN.AutoSize = true;
             this.checkBox1CIJEPLJEN.Location = new System.Drawing.Point(51, 453);
-            this.checkBox1CIJEPLJEN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1CIJEPLJEN.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1CIJEPLJEN.Name = "checkBox1CIJEPLJEN";
             this.checkBox1CIJEPLJEN.Size = new System.Drawing.Size(81, 20);
             this.checkBox1CIJEPLJEN.TabIndex = 10;
@@ -160,7 +160,7 @@
             // 
             this.checkBox2KASTRIRAN.AutoSize = true;
             this.checkBox2KASTRIRAN.Location = new System.Drawing.Point(179, 453);
-            this.checkBox2KASTRIRAN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox2KASTRIRAN.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox2KASTRIRAN.Name = "checkBox2KASTRIRAN";
             this.checkBox2KASTRIRAN.Size = new System.Drawing.Size(81, 20);
             this.checkBox2KASTRIRAN.TabIndex = 11;
@@ -170,7 +170,7 @@
             // textBox4NAPOMENA
             // 
             this.textBox4NAPOMENA.Location = new System.Drawing.Point(439, 55);
-            this.textBox4NAPOMENA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4NAPOMENA.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4NAPOMENA.Name = "textBox4NAPOMENA";
             this.textBox4NAPOMENA.Size = new System.Drawing.Size(132, 22);
             this.textBox4NAPOMENA.TabIndex = 12;
@@ -192,16 +192,17 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(352, 127);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(232, 174);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
             // spremi
             // 
             this.spremi.Location = new System.Drawing.Point(417, 386);
-            this.spremi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.spremi.Margin = new System.Windows.Forms.Padding(4);
             this.spremi.Name = "spremi";
             this.spremi.Size = new System.Drawing.Size(100, 28);
             this.spremi.TabIndex = 15;
@@ -212,7 +213,7 @@
             // odaberisliku
             // 
             this.odaberisliku.Location = new System.Drawing.Point(417, 319);
-            this.odaberisliku.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.odaberisliku.Margin = new System.Windows.Forms.Padding(4);
             this.odaberisliku.Name = "odaberisliku";
             this.odaberisliku.Size = new System.Drawing.Size(120, 28);
             this.odaberisliku.TabIndex = 16;
@@ -252,7 +253,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
