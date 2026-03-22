@@ -60,9 +60,9 @@
             this.label1.Location = new System.Drawing.Point(81, 63);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 16);
+            this.label1.Size = new System.Drawing.Size(90, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Odaberi vrstu ili status:";
+            this.label1.Text = "Odaberi vrstu:";
             // 
             // pretrazi
             // 
