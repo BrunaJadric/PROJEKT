@@ -66,7 +66,7 @@ namespace PROJEKT
             sr.Close();
             return lista;
 
-            
+
         }
         public static void UnosUdomitelja(string zapis)
         {
@@ -96,8 +96,8 @@ namespace PROJEKT
             List<string> lista = new List<string>();
             StreamReader sr = new StreamReader("azil.txt");
             string linija = sr.ReadLine();
-            int brojac = 0;   
-            int suma=0;
+            int brojac = 0;
+            int suma = 0;
             while (linija != null)
             {
                 string[] dijelovi = linija.Split('|');
@@ -112,6 +112,13 @@ namespace PROJEKT
 
         }
 
-
+        public static List<string> VrsteBroj()
+        {
+            List<string> lista = Ucitaj();
+        }
+    
     }
+
+
+    
 }
