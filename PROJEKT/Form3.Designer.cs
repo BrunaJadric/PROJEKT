@@ -50,196 +50,176 @@
             this.textBox9napomena = new System.Windows.Forms.TextBox();
             this.button1natrag = new System.Windows.Forms.Button();
             this.button2naprijed = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(35, 32);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.listBox1.Location = new System.Drawing.Point(26, 26);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(349, 468);
+            this.listBox1.Size = new System.Drawing.Size(263, 381);
             this.listBox1.TabIndex = 0;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(703, 32);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(527, 26);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(303, 229);
+            this.pictureBox1.Size = new System.Drawing.Size(227, 186);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(441, 32);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(331, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 16);
+            this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Ime:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(441, 81);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(331, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 16);
+            this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Vrsta:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(441, 132);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(331, 107);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 16);
+            this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Pasmina:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(441, 183);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(331, 149);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 16);
+            this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 5;
             this.label4.Text = "Spol:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(441, 245);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(331, 199);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 16);
+            this.label5.Size = new System.Drawing.Size(30, 13);
             this.label5.TabIndex = 6;
             this.label5.Text = "Dob:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(416, 293);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(312, 238);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 16);
+            this.label6.Size = new System.Drawing.Size(81, 13);
             this.label6.TabIndex = 7;
             this.label6.Text = "Datum dolaska:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(441, 358);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(331, 291);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 16);
+            this.label7.Size = new System.Drawing.Size(49, 13);
             this.label7.TabIndex = 8;
             this.label7.Text = "Cijepljen:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(441, 421);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(331, 342);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 16);
+            this.label8.Size = new System.Drawing.Size(51, 13);
             this.label8.TabIndex = 9;
             this.label8.Text = "Kastriran:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(441, 485);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(331, 394);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 16);
+            this.label9.Size = new System.Drawing.Size(62, 13);
             this.label9.TabIndex = 10;
             this.label9.Text = "Napomena:";
             // 
             // textBox1ime
             // 
-            this.textBox1ime.Location = new System.Drawing.Point(535, 32);
-            this.textBox1ime.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1ime.Location = new System.Drawing.Point(401, 26);
             this.textBox1ime.Name = "textBox1ime";
-            this.textBox1ime.Size = new System.Drawing.Size(132, 22);
+            this.textBox1ime.Size = new System.Drawing.Size(100, 20);
             this.textBox1ime.TabIndex = 11;
             // 
             // textBox2vrsta
             // 
-            this.textBox2vrsta.Location = new System.Drawing.Point(535, 78);
-            this.textBox2vrsta.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2vrsta.Location = new System.Drawing.Point(401, 63);
             this.textBox2vrsta.Name = "textBox2vrsta";
-            this.textBox2vrsta.Size = new System.Drawing.Size(132, 22);
+            this.textBox2vrsta.Size = new System.Drawing.Size(100, 20);
             this.textBox2vrsta.TabIndex = 12;
             // 
             // textBox3pasmina
             // 
-            this.textBox3pasmina.Location = new System.Drawing.Point(535, 128);
-            this.textBox3pasmina.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3pasmina.Location = new System.Drawing.Point(401, 104);
             this.textBox3pasmina.Name = "textBox3pasmina";
-            this.textBox3pasmina.Size = new System.Drawing.Size(132, 22);
+            this.textBox3pasmina.Size = new System.Drawing.Size(100, 20);
             this.textBox3pasmina.TabIndex = 13;
             // 
             // textBox4spol
             // 
-            this.textBox4spol.Location = new System.Drawing.Point(535, 180);
-            this.textBox4spol.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4spol.Location = new System.Drawing.Point(401, 146);
             this.textBox4spol.Name = "textBox4spol";
-            this.textBox4spol.Size = new System.Drawing.Size(132, 22);
+            this.textBox4spol.Size = new System.Drawing.Size(100, 20);
             this.textBox4spol.TabIndex = 14;
             // 
             // textBox5dob
             // 
-            this.textBox5dob.Location = new System.Drawing.Point(535, 236);
-            this.textBox5dob.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox5dob.Location = new System.Drawing.Point(401, 192);
             this.textBox5dob.Name = "textBox5dob";
-            this.textBox5dob.Size = new System.Drawing.Size(132, 22);
+            this.textBox5dob.Size = new System.Drawing.Size(100, 20);
             this.textBox5dob.TabIndex = 15;
             // 
             // textBox6datumdolaska
             // 
-            this.textBox6datumdolaska.Location = new System.Drawing.Point(535, 293);
-            this.textBox6datumdolaska.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox6datumdolaska.Location = new System.Drawing.Point(401, 238);
             this.textBox6datumdolaska.Name = "textBox6datumdolaska";
-            this.textBox6datumdolaska.Size = new System.Drawing.Size(132, 22);
+            this.textBox6datumdolaska.Size = new System.Drawing.Size(100, 20);
             this.textBox6datumdolaska.TabIndex = 16;
             // 
             // textBox7cijepljen
             // 
-            this.textBox7cijepljen.Location = new System.Drawing.Point(535, 354);
-            this.textBox7cijepljen.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox7cijepljen.Location = new System.Drawing.Point(401, 288);
             this.textBox7cijepljen.Name = "textBox7cijepljen";
-            this.textBox7cijepljen.Size = new System.Drawing.Size(132, 22);
+            this.textBox7cijepljen.Size = new System.Drawing.Size(100, 20);
             this.textBox7cijepljen.TabIndex = 17;
             // 
             // textBox8kastriran
             // 
-            this.textBox8kastriran.Location = new System.Drawing.Point(535, 412);
-            this.textBox8kastriran.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox8kastriran.Location = new System.Drawing.Point(401, 335);
             this.textBox8kastriran.Name = "textBox8kastriran";
-            this.textBox8kastriran.Size = new System.Drawing.Size(132, 22);
+            this.textBox8kastriran.Size = new System.Drawing.Size(100, 20);
             this.textBox8kastriran.TabIndex = 18;
             // 
             // textBox9napomena
             // 
-            this.textBox9napomena.Location = new System.Drawing.Point(535, 476);
-            this.textBox9napomena.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox9napomena.Location = new System.Drawing.Point(401, 387);
             this.textBox9napomena.Name = "textBox9napomena";
-            this.textBox9napomena.Size = new System.Drawing.Size(132, 22);
+            this.textBox9napomena.Size = new System.Drawing.Size(100, 20);
             this.textBox9napomena.TabIndex = 19;
             // 
             // button1natrag
             // 
-            this.button1natrag.Location = new System.Drawing.Point(731, 308);
-            this.button1natrag.Margin = new System.Windows.Forms.Padding(4);
+            this.button1natrag.Location = new System.Drawing.Point(548, 250);
             this.button1natrag.Name = "button1natrag";
-            this.button1natrag.Size = new System.Drawing.Size(100, 28);
+            this.button1natrag.Size = new System.Drawing.Size(75, 23);
             this.button1natrag.TabIndex = 20;
             this.button1natrag.Text = "Natrag";
             this.button1natrag.UseVisualStyleBackColor = true;
@@ -247,20 +227,30 @@
             // 
             // button2naprijed
             // 
-            this.button2naprijed.Location = new System.Drawing.Point(880, 308);
-            this.button2naprijed.Margin = new System.Windows.Forms.Padding(4);
+            this.button2naprijed.Location = new System.Drawing.Point(660, 250);
             this.button2naprijed.Name = "button2naprijed";
-            this.button2naprijed.Size = new System.Drawing.Size(100, 28);
+            this.button2naprijed.Size = new System.Drawing.Size(75, 23);
             this.button2naprijed.TabIndex = 21;
             this.button2naprijed.Text = "Naprijed";
             this.button2naprijed.UseVisualStyleBackColor = true;
             this.button2naprijed.Click += new System.EventHandler(this.button2naprijed_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(606, 291);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Izlaz";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button2naprijed);
             this.Controls.Add(this.button1natrag);
             this.Controls.Add(this.textBox9napomena);
@@ -283,7 +273,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -317,5 +306,6 @@
         private System.Windows.Forms.TextBox textBox9napomena;
         private System.Windows.Forms.Button button1natrag;
         private System.Windows.Forms.Button button2naprijed;
+        private System.Windows.Forms.Button button1;
     }
 }

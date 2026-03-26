@@ -45,5 +45,10 @@ namespace PROJEKT
             string zapis = textBox1datumu.Text + "|" + textBox2udomitelj + "|" + textBox3kontakt.Text;
             Admin.UnosUdomitelja(zapis);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

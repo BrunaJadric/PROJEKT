@@ -31,7 +31,7 @@ namespace PROJEKT
         
         private void spremi_Click(object sender, EventArgs e)
         {
-            openFileDialog1.ShowDialog();
+           
             string slika = openFileDialog1.FileName;
             string spol = "";
             string kastriran = "";
@@ -72,6 +72,11 @@ namespace PROJEKT
              checkBox1CIJEPLJEN.Checked = false;
              checkBox2KASTRIRAN.Checked = false;
              textBox4NAPOMENA.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
