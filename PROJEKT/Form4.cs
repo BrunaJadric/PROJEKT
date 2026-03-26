@@ -24,7 +24,7 @@ namespace PROJEKT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            comboBox1.Items.Clear();
+            listBox1.Items.Clear();
             string kriterij = comboBox1.SelectedItem.ToString();
             List<string> vrste = Admin.PronadiPoVrsti(kriterij);
             foreach (string vrsta in vrste)

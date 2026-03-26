@@ -115,6 +115,24 @@ namespace PROJEKT
         public static List<string> VrsteBroj()
         {
             List<string> lista = Ucitaj();
+            List<string> lista2 = Vrste();
+            List<string> lista3= new List<string>();
+            StreamReader sr = new StreamReader("azil.txt");
+
+            foreach (string vrsta in lista2)
+            {
+                int brojac = 0;
+                foreach (string linija in lista)
+                {
+                    string[] dijelovi = linija.Split('|');
+                    if (dijelovi[1] == vrsta)
+                    {
+                        brojac++;
+                    }
+                }
+                lista3.Add(vrsta + ": " + brojac);
+            }
+            return lista3;
         }
     
     }

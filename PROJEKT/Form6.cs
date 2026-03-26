@@ -40,6 +40,11 @@ namespace PROJEKT
             Statistika.Items.Add("Broj udomljenih zivotinja: " + udomljenih);
             Statistika.Items.Add("Broj zivotinja koje su još uvijek u azilu: " + (brojac - udomljenih));
             Statistika.Items.Add("Prosječna dob zivotinja u azilu: " + Admin.ProsjecnaDob() + " godina");
+            Statistika.Items.Add("Broj zivotinja po vrstama: ");
+            foreach (string linija in Admin.VrsteBroj())
+            {
+                Statistika.Items.Add(linija);
+            }
 
 
         }
